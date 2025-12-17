@@ -18,7 +18,7 @@ const sidebarMenu = [
         ],
     },
     {
-        label: "Gettiing Started",
+        label: "Getting Started",
         items: [
             { label: "Quickstart", href: "/docs/quickstart" },
             { label: "Core Workflow", href: "/docs/workflow" },
@@ -97,21 +97,21 @@ export default function Sidebar({ isOpen, onClose }: SidebarProps) {
                     <Link
                         href="/changelog"
                         onClick={onClose}
-                        className="px-3 h-8 items-center flex rounded-sm text-sm text-foreground/70 hover:text-foreground"
+                        className="px-3 h-8 items-center flex rounded-sm text-xs text-foreground/70 hover:text-foreground"
                     >
                         <div className="flex items-center w-full justify-between gap-2">
                             <span>Changelog</span>
-                            <RiArrowRightUpLine className="size-4" />
+                            <RiArrowRightUpLine className="size-3" />
                         </div>
                     </Link>
                     <Link
                         href="/report"
                         onClick={onClose}
-                        className="px-3 h-8 items-center flex rounded-sm text-sm text-foreground/70 hover:text-foreground"
+                        className="px-3 h-8 items-center flex rounded-sm text-xs text-foreground/70 hover:text-foreground"
                     >
                         <div className="flex items-center w-full justify-between gap-2">
                             <span>Report a Bug</span>
-                            <RiArrowRightUpLine className="size-4" />
+                            <RiArrowRightUpLine className="size-3" />
                         </div>
                     </Link>
                 </div>
